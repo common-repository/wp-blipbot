@@ -1,0 +1,120 @@
+div.blipnij
+	{
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(blip.gif) 0 0 no-repeat;
+	cursor: pointer;
+	margin-top: 5px;
+	}
+
+div.blipnij:hover
+	{
+	background: url(blip.gif) 0 -16px no-repeat;
+	}
+
+div.blipanie
+	{
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(load.gif) 0 0 no-repeat;
+	cursor: normal;
+	margin-top: 5px;
+	}
+
+div.blipniety
+	{
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(blip.gif) 0 -32px no-repeat;
+	cursor: normal;
+	margin-top: 5px;
+	}
+
+div#wpblipbot p
+	{
+	margin: 10px 0 20px 20px;
+	line-height: 16px;
+	}
+
+div#wpblipbot h4
+	{
+	font-size: 14px;
+	text-decoration: underline;
+	}
+
+div#planowanie
+	{
+	margin-left: 20px;
+	}
+
+#dd {
+	width: 2em;
+	padding: 1px;
+	font-size: 12px;
+	}
+
+div#obrazki
+	{
+	margin-left: 20px;
+	}
+
+div#obrazki a
+	{
+	margin-left: 10px;
+	padding: 0;
+	}
+
+div#obrazki img
+	{
+	width: 100px;
+	height: 100px;
+	}
+
+
+
+th.column-blipbot
+	{
+	width: 40px;
+	}
+
+td.column-blipbot
+	{
+	text-align: center;
+	}
+
+#blipbot h3
+	{
+	background: #eaf3fa;
+	border: 1px solid #c2d6df;
+	padding: 5px 6px;
+	}
+#blipbot div.blipek
+	{
+	width: 453px;
+	height: 70px;
+	padding: 9px 10px 9px 64px;
+	margin-left: 20px;
+	background: url(blip.png) 0 0 no-repeat;
+	font-size: 12px;
+	font-family: arial;
+	line-height: 15px;
+	}
+
+#blipbot div.blipek a
+	{
+	color: rgb(255, 91, 0);
+	text-decoration: none;
+	}
+
+#blipbot div.blipek a:hover
+	{
+	text-decoration: underline;
+	}
+
+#blipbot div.blipek a.autor
+	{
+	font-weight: bold;
+	}
